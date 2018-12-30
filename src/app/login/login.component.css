@@ -1,0 +1,50 @@
+.image-container{
+    width: 70vw;
+    height: 100vh;
+
+    display: inline-block;
+}
+.cover{
+    width: 70vw;
+    height: 100vh;
+
+    object-fit: cover;
+
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 4px 0px rgba(0,0,0,0.75);
+}
+
+.login-container{
+    width: 30vw;
+    height: 100vh;
+    position: absolute;
+    left: 70vw;
+    display: inline-block;
+    
+    /* text-align: center; */
+    padding: 10px;
+
+
+
+}
+
+.bg-orangered{
+    background-color: orangered;
+    color: white;
+}
+
+label{
+    color: orangered;
+}
+
+input{
+    border: 1px solid rgba(255, 68, 0, 0.2);
+}
+
+.logo{
+    width:  100%;
+    height: auto;
+
+    object-fit: cover;
+}
